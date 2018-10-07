@@ -47,6 +47,7 @@ header a {
 
 #main {
   padding: 0 40px;
+  width: 1280px;
 }
 
 #blergagblerg {
@@ -63,4 +64,41 @@ header a {
 #mission-bar {
   background-color: black;
   width: 100%;
+}
+
+#whats-brewing {
+  width:1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#tea-mo {
+  padding-top: 70px;
+  width: 1200px;
+  text-align: center;
+  position: relative;
+}
+
+#teas-mos {
+  width:1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.teas-mo {
+  text-align: center;
+  margin: 10px 15px;
+}
+
+.teas-mo img {
+  height: 200px;
+  width: 300px;
 }
