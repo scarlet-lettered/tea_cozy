@@ -46,9 +46,10 @@ header a {
 }
 
 #main {
-  padding: 0 40px;
-  width: 1280px;
-}
+  padding: 0 0 0 40px;
+
+  margin: 0 0 0 20px;
+  }
 
 #blergagblerg {
   padding-top: 70px;
@@ -81,7 +82,7 @@ header a {
   width: 1200px;
   text-align: center;
   position: relative;
-  padding-bottom: 70px;
+  padding-bottom: 15px;
 }
 
 #teas-mos {
@@ -97,6 +98,7 @@ header a {
 .teas-mo {
   text-align: center;
   margin: 0 15px;
+  padding-bottom: 70px;
   }
 
 .teas-mo img {
@@ -106,12 +108,51 @@ header a {
   }
 
   #cozy-locos {
-    padding-top: 70px;
     height: 500px;
     width: 1200px;
     background-image: url("./resources/images/img-locations-background.jpg");
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #locations {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+
+  .loco-coz {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #contact {
+    width: 1200px;
+    height: 200px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    background-color: black;
+
+  }
+
+  footer {
+    text-align: left;
+    margin-left: 20px;
   }
