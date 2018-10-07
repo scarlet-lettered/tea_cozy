@@ -1,0 +1,66 @@
+html, body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index: 3;
+  flex-wrap: nowrap;
+  background-color: black;
+  opacity: 0.9;
+  }
+
+header img {
+  height: 50px;
+  opacity: 100%;
+  padding-left: 10px;
+  }
+
+header nav {
+  display: inline-block;
+  text-align: right;
+  flex-shrink: 2;
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+header a {
+  color: seashell;
+  text-decoration: underline;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+#main {
+  padding: 0 40px;
+}
+
+#blergagblerg {
+  padding-top: 70px;
+  background-image: url("./resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#mission-bar {
+  background-color: black;
+  width: 100%;
+}
