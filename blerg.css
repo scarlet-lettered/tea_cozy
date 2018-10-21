@@ -22,13 +22,13 @@ header {
   flex-wrap: nowrap;
   background-color: black;
   opacity: 0.9;
-  }
+}
 
 header img {
   height: 50px;
   opacity: 100%;
   padding-left: 10px;
-  }
+}
 
 header nav {
   display: inline-block;
@@ -49,7 +49,7 @@ header a {
   padding: 0 0 0 0;
   margin: 0 0 0 20px;
   z-index: 2;
-  }
+}
 
 #blergagblerg {
   padding-top: 70px;
@@ -99,13 +99,13 @@ header a {
   text-align: center;
   margin: 0 15px;
   padding-bottom: 70px;
-  }
+}
 
 .teas-mo img {
   height: 200px;
   width: 300px;
   margin-bottom: 10px;
-  }
+}
 
   #cozy-locos {
     height: 500px;
@@ -149,7 +149,6 @@ header a {
     text-align: center;
     margin: 0 20px;
     background-color: black;
-
   }
 
   footer {
